@@ -10,8 +10,19 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxt/image": "^1.4.0",
+    "@nuxt/ui": "^2.15.0",
     "nuxt": "^3.11.1",
+    "nuxt-csurf": "^1.5.1",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-module": "^4.1.0",
+    "@nuxtjs/seo": "2.0.0-rc.10",
+    "@vite-pwa/nuxt": "^0.6.0",
+    "eslint": "^8.57.0",
+    "nuxt-gtag": "^2.0.5",
+    "nuxt-security": "^1.2.2"
   }
 }
